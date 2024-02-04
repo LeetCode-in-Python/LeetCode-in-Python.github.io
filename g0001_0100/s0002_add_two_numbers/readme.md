@@ -34,6 +34,8 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 *   `0 <= Node.val <= 9`
 *   It is guaranteed that the list represents a number that does not have leading zeros.
 
+Here are the steps to solve the "Add Two Numbers" problem:
+
 ### Approach:
 
 1. **Initialize Pointers and Carry:**

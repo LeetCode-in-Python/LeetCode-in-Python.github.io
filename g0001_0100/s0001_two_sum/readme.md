@@ -37,6 +37,8 @@ You can return the answer in any order.
 
 **Follow-up:** Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code> time complexity?
 
+Here are the steps to solve the Two Sum problem:
+
 ### Approach:
 
 1. **Create a Dictionary/HashMap:**
