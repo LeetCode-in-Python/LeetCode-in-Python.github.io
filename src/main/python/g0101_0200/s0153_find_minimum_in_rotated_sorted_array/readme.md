@@ -48,8 +48,6 @@ You must write an algorithm that runs in `O(log n) time.`
 *   All the integers of `nums` are **unique**.
 *   `nums` is sorted and rotated between `1` and `n` times.
 
-
-
 ## Solution
 
 ```python

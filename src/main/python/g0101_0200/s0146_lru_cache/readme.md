@@ -41,8 +41,6 @@ The functions `get` and `put` must each run in `O(1)` average time complexity.
 *   <code>0 <= value <= 10<sup>5</sup></code>
 *   At most 2<code> * 10<sup>5</sup></code> calls will be made to `get` and `put`.
 
-
-
 ## Solution
 
 ```python

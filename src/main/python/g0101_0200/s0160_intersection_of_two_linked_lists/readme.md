@@ -70,8 +70,6 @@ The judge will then create the linked structure based on these inputs and pass t
 
 **Follow up:** Could you write a solution that runs in `O(n)` time and use only `O(1)` memory?
 
-
-
 ## Solution
 
 ```python
