@@ -33,7 +33,6 @@ Notice that the solution set must not contain duplicate triplets.
 *   <code>-10<sup>5</sup> <= nums[i] <= 10<sup>5</sup></code>
 
 
-
 ## Solution
 
 ```python

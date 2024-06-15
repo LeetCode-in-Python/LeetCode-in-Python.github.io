@@ -42,7 +42,6 @@ string convert(string s, int numRows);
 *   `1 <= numRows <= 1000`
 
 
-
 ## Solution
 
 ```python

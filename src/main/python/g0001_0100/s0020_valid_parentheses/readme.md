@@ -48,7 +48,6 @@ An input string is valid if:
 *   `s` consists of parentheses only `'()[]{}'`.
 
 
-
 ## Solution
 
 ```python

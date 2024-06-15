@@ -53,7 +53,6 @@ The overall run time complexity should be `O(log (m+n))`.
 *   <code>-10<sup>6</sup> <= nums1[i], nums2[i] <= 10<sup>6</sup></code>
 
 
-
 ## Solution
 
 ```python

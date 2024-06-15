@@ -37,7 +37,6 @@ Given a string `s`, return _the longest palindromic substring_ in `s`.
 *   `s` consist of only digits and English letters.
 
 
-
 ## Solution
 
 ```python

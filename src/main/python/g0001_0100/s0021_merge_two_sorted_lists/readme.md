@@ -34,7 +34,6 @@ Merge two sorted linked lists and return it as a **sorted** list. The list shoul
 *   Both `l1` and `l2` are sorted in **non-decreasing** order.
 
 
-
 ## Solution
 
 ```python

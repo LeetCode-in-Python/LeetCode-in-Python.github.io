@@ -44,7 +44,6 @@ Given `n` non-negative integers <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n
 *   <code>0 <= height[i] <= 10<sup>4</sup></code>
 
 
-
 ## Solution
 
 ```python

@@ -43,7 +43,6 @@ Given a string `s`, find the length of the **longest substring** without repeati
 *   `s` consists of English letters, digits, symbols and spaces.
 
 
-
 ## Solution
 
 ```python

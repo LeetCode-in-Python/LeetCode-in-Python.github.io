@@ -35,7 +35,6 @@ A mapping of digit to letters (just like on the telephone buttons) is given belo
 *   `digits[i]` is a digit in the range `['2', '9']`.
 
 
-
 ## Solution
 
 ```python
