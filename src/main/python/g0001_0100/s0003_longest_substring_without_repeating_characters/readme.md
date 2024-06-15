@@ -42,8 +42,6 @@ Given a string `s`, find the length of the **longest substring** without repeati
 *   <code>0 <= s.length <= 5 * 10<sup>4</sup></code>
 *   `s` consists of English letters, digits, symbols and spaces.
 
-
-
 ## Solution
 
 ```python
