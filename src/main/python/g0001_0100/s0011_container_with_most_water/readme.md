@@ -115,21 +115,3 @@ print(solution.maxArea(height4))  # Output: 2
 ```
 
 This code defines a `Solution` class with a method `maxArea` that takes an array of heights as input and returns the maximum area that can be formed by a container. The example usage demonstrates how to create an instance of the `Solution` class and call the `maxArea` method with different inputs.
-
-## Solution
-
-```python
-class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        max_area = -1
-        left = 0
-        right = len(height) - 1
-        while left < right:
-            if height[left] < height[right]:
-                max_area = max(max_area, height[left] * (right - left))
-                left += 1
-            else:
-                max_area = max(max_area, height[right] * (right - left))
-                right -= 1
-        return max_area
-```
