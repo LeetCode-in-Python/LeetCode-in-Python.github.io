@@ -121,29 +121,3 @@ print(solution.lengthOfLongestSubstring(s4))  # Output: 0
 ```
 
 This code defines a `Solution` class with a method `lengthOfLongestSubstring` that takes a string `s` as input and returns the length of the longest substring without repeating characters. The example usage demonstrates how to create an instance of the `Solution` class and call the `lengthOfLongestSubstring` method with different inputs.
-
-## Solution
-
-```python
-class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        last_indices = [-1] * 256
-        max_len = 0
-        cur_len = 0
-        start = 0
-
-        for i, char in enumerate(s):
-            if last_indices[ord(char)] < start:
-                last_indices[ord(char)] = i
-                cur_len += 1
-            else:
-                last_index = last_indices[ord(char)]
-                start = last_index + 1
-                cur_len = i - start + 1
-                last_indices[ord(char)] = i
-
-            if cur_len > max_len:
-                max_len = cur_len
-
-        return max_len
-```

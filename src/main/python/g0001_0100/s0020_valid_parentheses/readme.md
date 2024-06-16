@@ -118,23 +118,3 @@ result5 = solution.isValid(input5)  # Output: True
 ```
 
 This code defines a `Solution` class with a method `isValid` that takes a string `s` as input and returns `True` if the parentheses in the input string are valid and `False` otherwise. The example usage demonstrates how to create an instance of the `Solution` class and call the `isValid` method with different inputs.
-
-## Solution
-
-```python
-class Solution:
-    def isValid(self, s):
-        stack = []
-        for char in s:
-            if char in "({[":
-                stack.append(char)
-            elif char == ')' and stack and stack[-1] == '(':
-                stack.pop()
-            elif char == '}' and stack and stack[-1] == '{':
-                stack.pop()
-            elif char == ']' and stack and stack[-1] == '[':
-                stack.pop()
-            else:
-                return False
-        return not stack
-```

@@ -117,29 +117,3 @@ print(solution.letterCombinations(digits3))  # Output: ["a","b","c"]
 ```
 
 This code defines a `Solution` class with a method `letterCombinations` that takes a string of digits as input and returns a list of all possible letter combinations. The example usage demonstrates how to create an instance of the `Solution` class and call the `letterCombinations` method with different inputs.
-
-## Solution
-
-```python
-class Solution:
-    def letterCombinations(self, digits: str) -> List[str]:
-        if not digits:
-            return []
-
-        letters = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
-        ans = []
-        self.findCombinations(0, digits, letters, [], ans)
-        return ans
-
-    def findCombinations(self, start, digits, letters, curr, ans):
-        if len(curr) == len(digits):
-            ans.append("".join(curr))
-            return
-
-        for i in range(start, len(digits)):
-            n = int(digits[i])
-            for ch in letters[n]:
-                curr.append(ch)
-                self.findCombinations(i + 1, digits, letters, curr, ans)
-                curr.pop()
-```

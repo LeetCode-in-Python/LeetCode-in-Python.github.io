@@ -104,11 +104,3 @@ print(solution.isPalindrome(x4))  # Output: False
 ```
 
 This code defines a `Solution` class with a method `isPalindrome` that takes an integer `x` as input and returns `True` if it is a palindrome and `False` otherwise. The example usage demonstrates how to create an instance of the `Solution` class and call the `isPalindrome` method with different inputs. The `reverse` method is used to reverse the digits of a positive integer.
-
-## Solution
-
-```python
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        return str(x) == str(x)[::-1]
-```

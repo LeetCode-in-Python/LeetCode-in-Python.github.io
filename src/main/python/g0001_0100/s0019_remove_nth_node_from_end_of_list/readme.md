@@ -110,29 +110,3 @@ result3 = solution.removeNthFromEnd(head3, n3)  # Output: ListNode(1)
 ```
 
 This code defines a `ListNode` class representing a node in the linked list and a `Solution` class with a method `removeNthFromEnd` that takes the head of the linked list and an integer `n` as input, removes the `nth` node from the end of the list, and returns the head of the modified list. The example usage demonstrates how to create instances of the `ListNode` class and call the `removeNthFromEnd` method with different inputs.
-
-## Solution
-
-```python
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-class Solution:
-    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        self.n = n
-        dummy = ListNode(0, head)
-        self._removeNth(dummy)
-        return dummy.next
-
-    def _removeNth(self, node):
-        if not node.next:
-            return
-        
-        self._removeNth(node.next)
-        self.n -= 1
-        
-        if self.n == 0:
-            node.next = node.next.next
-```

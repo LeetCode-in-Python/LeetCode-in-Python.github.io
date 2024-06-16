@@ -85,26 +85,3 @@ result2 = solution.generateParenthesis(n2)  # Output: ["()"]
 ```
 
 This code defines a `Solution` class with a method `generateParenthesis` that takes an integer `n` as input and returns a list containing all combinations of well-formed parentheses for `n` pairs. The example usage demonstrates how to create an instance of the `Solution` class and call the `generateParenthesis` method with different inputs.
-
-## Solution
-
-```python
-class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
-        ans = []
-        self._generate([], ans, n, n)
-        return ans
-
-    def _generate(self, current, result, open, close):
-        if open == 0 and close == 0:
-            result.append("".join(current))
-            return
-        if open > 0:
-            current.append('(')
-            self._generate(current, result, open - 1, close)
-            current.pop()
-        if close > 0 and open < close:
-            current.append(')')
-            self._generate(current, result, open, close - 1)
-            current.pop()
-```

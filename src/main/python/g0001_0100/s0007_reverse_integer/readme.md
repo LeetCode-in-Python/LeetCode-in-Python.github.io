@@ -125,24 +125,3 @@ print(solution.reverse(x4))  # Output: 0
 ```
 
 This code defines a `Solution` class with a method `reverse` that takes an integer `x` as input and returns the reversed integer. The example usage demonstrates how to create an instance of the `Solution` class and call the `reverse` method with different inputs.
-
-## Solution
-
-```python
-class Solution:
-    def reverse(self, x: int) -> int:
-        rev = 0
-        sign = -1 if x < 0 else 1
-        x = abs(x)
-
-        while x != 0:
-            rev = rev * 10 + x % 10
-            x //= 10
-
-        rev *= sign
-
-        if rev > 2**31 - 1 or rev < -2**31:
-            return 0
-
-        return rev
-```

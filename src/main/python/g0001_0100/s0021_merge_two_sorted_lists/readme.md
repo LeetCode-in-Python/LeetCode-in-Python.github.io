@@ -107,35 +107,3 @@ result3 = solution.mergeTwoLists(l1_3, l2_3)  # Output: ListNode(0)
 ```
 
 This code defines a `ListNode` class representing a node in the linked list and a `Solution` class with a method `mergeTwoLists` that takes two sorted linked lists (`l1` and `l2`) as input and returns a new sorted linked list obtained by merging the nodes of `l1` and `l2`. The example usage demonstrates how to create instances of the `ListNode` class and call the `mergeTwoLists` method with different inputs.
-
-## Solution
-
-```python
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        dummy = ListNode(-1)
-        current = dummy
-        
-        while list1 is not None or list2 is not None:
-            if list1 is not None and list2 is not None:
-                if list1.val <= list2.val:
-                    current.next = ListNode(list1.val)
-                    list1 = list1.next
-                else:
-                    current.next = ListNode(list2.val)
-                    list2 = list2.next
-            elif list1 is not None:
-                current.next = ListNode(list1.val)
-                list1 = list1.next
-            else:
-                current.next = ListNode(list2.val)
-                list2 = list2.next
-            current = current.next
-            
-        return dummy.next
-```

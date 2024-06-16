@@ -119,32 +119,3 @@ print(solution.convert(s3, numRows3))  # Output: "A"
 ```
 
 This code defines a `Solution` class with a method `convert` that takes a string `s` and the number of rows `numRows` as input and returns the zigzag conversion of the string. The example usage demonstrates how to create an instance of the `Solution` class and call the `convert` method with different inputs.
-
-## Solution
-
-```python
-class Solution:
-    def convert(self, s: str, numRows: int) -> str:
-        s_len = len(s)
-        if numRows == 1:
-            return s
-
-        max_dist = numRows * 2 - 2
-        buf = []
-
-        for i in range(numRows):
-            index = i
-            if i == 0 or i == numRows - 1:
-                while index < s_len:
-                    buf.append(s[index])
-                    index += max_dist
-            else:
-                while index < s_len:
-                    buf.append(s[index])
-                    index += max_dist - i * 2
-                    if index >= s_len:
-                        break
-                    buf.append(s[index])
-                    index += i * 2
-        return ''.join(buf)
-```
