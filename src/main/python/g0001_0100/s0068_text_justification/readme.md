@@ -77,7 +77,7 @@ class Solution:
                         sb.append(' ')
                         line_total += 1
                 else:
-                    # # of extra spaces
+                    # of extra spaces
                     extra_sp = (maxWidth - line_total) % (num_words_on_line - 1)
                     # Creating the line
                     for j in range(start_word, start_word + num_words_on_line - 1):
@@ -88,7 +88,7 @@ class Solution:
                             sb.append(' ')
                             extra_sp -= 1
                         # appending the rest of the required spaces
-                        max_spaces = max(0, (maxWidth - line_total) # (num_words_on_line - 1))
+                        max_spaces = max(0, (maxWidth - line_total) // (num_words_on_line - 1))
                         sb.append(' ' * max_spaces)
                     # appending the last word of the line
                     sb.append(words[start_word + num_words_on_line - 1])
