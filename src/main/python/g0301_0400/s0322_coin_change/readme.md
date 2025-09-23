@@ -40,6 +40,8 @@ You may assume that you have an infinite number of each kind of coin.
 ## Solution
 
 ```python
+from typing import List
+
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         dp = [0] * (amount + 1)

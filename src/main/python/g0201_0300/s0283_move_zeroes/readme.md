@@ -31,6 +31,8 @@ Given an integer array `nums`, move all `0`'s to the end of it while maintaining
 ## Solution
 
 ```python
+from typing import List
+
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """

@@ -48,6 +48,8 @@ Implement the MedianFinder class:
 ## Solution
 
 ```python
+from typing import List
+
 import heapq
 
 class MedianFinder:

@@ -39,6 +39,7 @@ A **subsequence** is a sequence that can be derived from an array by deleting so
 ## Solution
 
 ```python
+from typing import List
 import bisect
 
 class Solution:

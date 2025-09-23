@@ -30,6 +30,7 @@ Given an integer array `nums` and an integer `k`, return _the_ `k` _most frequen
 ## Solution
 
 ```python
+from typing import List
 import heapq
 from collections import Counter
 

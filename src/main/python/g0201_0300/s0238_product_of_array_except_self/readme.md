@@ -34,6 +34,8 @@ You must write an algorithm that runs in `O(n)` time and without using the divis
 ## Solution
 
 ```python
+from typing import List
+
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         product = 1

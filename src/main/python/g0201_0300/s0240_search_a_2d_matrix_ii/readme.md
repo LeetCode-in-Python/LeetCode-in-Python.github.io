@@ -39,6 +39,8 @@ Write an efficient algorithm that searches for a `target` value in an `m x n` in
 ## Solution
 
 ```python
+from typing import List
+
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix or not matrix[0]:

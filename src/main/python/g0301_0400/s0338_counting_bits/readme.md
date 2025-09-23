@@ -46,6 +46,8 @@ Given an integer `n`, return _an array_ `ans` _of length_ `n + 1` _such that for
 ## Solution
 
 ```python
+from typing import List
+
 class Solution:
     def countBits(self, num: int) -> List[int]:
         result = [0] * (num + 1)
