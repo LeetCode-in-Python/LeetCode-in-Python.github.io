@@ -6,7 +6,6 @@
 [![](https://img.shields.io/github/forks/LeetCode-in-Python/LeetCode-in-Python?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/LeetCode-in-Python/LeetCode-in-Python/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [Graph Theory I](#graph-theory-i)
 * [SQL I](#sql-i)
 * [Level 1](#level-1)
 * [Level 2](#level-2)
@@ -21,81 +20,7 @@
 * [Dynamic Programming I](#dynamic-programming-i)
 * [Programming Skills I](#programming-skills-i)
 * [Programming Skills II](#programming-skills-ii)
-
-### Graph Theory I
-
-#### Day 1 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0200 |[Number of Islands](src/main/python/g0101_0200/s0200_number_of_islands)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 234 | 82.73
-
-#### Day 2 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 3 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 4 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 5 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 6 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 7 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 8 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 9 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 10 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 11 Breadth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 12 Breadth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0433 |[Minimum Genetic Mutation](src/main/python/g0401_0500/s0433_minimum_genetic_mutation)| Medium | String, Hash_Table, Breadth_First_Search | 0 | 100.00
-| 0127 |[Word Ladder](src/main/python/g0101_0200/s0127_word_ladder)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 21 | 99.65
-
-#### Day 13 Graph Theory
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 14 Graph Theory
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
+* [Graph Theory I](#graph-theory-i)
 
 ### SQL I
 
@@ -1750,10 +1675,85 @@
 |-|-|-|-|-|-
 | 0380 |[Insert Delete GetRandom O(1)](src/main/python/g0301_0400/s0380_insert_delete_getrandom_o1)| Medium | Array, Hash_Table, Math, Design, Randomized | 90 | 96.69
 
+### Graph Theory I
+
+#### Day 1 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0200 |[Number of Islands](src/main/python/g0101_0200/s0200_number_of_islands)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 234 | 82.73
+
+#### Day 2 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 3 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 4 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 5 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 6 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 7 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 8 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 9 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 10 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 11 Breadth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 12 Breadth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0433 |[Minimum Genetic Mutation](src/main/python/g0401_0500/s0433_minimum_genetic_mutation)| Medium | String, Hash_Table, Breadth_First_Search | 0 | 100.00
+| 0127 |[Word Ladder](src/main/python/g0101_0200/s0127_word_ladder)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 21 | 99.65
+
+#### Day 13 Graph Theory
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 14 Graph Theory
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
-|------|----------------|-------------|-------------|----------|--------
+|------|----------------|-------------|-------------|----------|---------
 | 1143 |[Longest Common Subsequence](src/main/python/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, LeetCode_75_DP/Multidimensional, Algorithm_II_Day_17_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 463 | 61.43
 | 0918 |[Maximum Sum Circular Subarray](src/main/python/g0901_1000/s0918_maximum_sum_circular_subarray)| Medium | Array, Dynamic_Programming, Divide_and_Conquer, Queue, Monotonic_Queue, Dynamic_Programming_I_Day_5, Top_Interview_150_Kadane's_Algorithm | 92 | 78.54
 | 0909 |[Snakes and Ladders](src/main/python/g0901_1000/s0909_snakes_and_ladders)| Medium | Array, Breadth_First_Search, Matrix, Top_Interview_150_Graph_BFS | 15 | 89.20
